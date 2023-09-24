@@ -6,10 +6,25 @@
 
 
 //generic functions in TS
+// 
+// 
+// function people(value: string){
+// return value;
+// }
+// const person = people("viateur");
+// console.log(person)
+
+          //module exports and imports
+// import {Circle, Square} from "./shapes";
+// const area = new Circle(1);
+// const perimeter = new Square(9)
+// console.log(area.radius)
+// console.log(perimeter.side)
+  //wildacard opetatopr
 
 
-function people(value: string){
-return value;
-}
-const person = people("viateur");
-console.log(person)
+  import * as shapes from "./shapes"
+  const area = new shapes.Circle(1);
+  const perimeter = new shapes.Square(4);
+  console.log(area);
+  console.log(perimeter)
