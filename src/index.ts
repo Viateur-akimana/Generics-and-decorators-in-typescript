@@ -20,11 +20,15 @@
 // const perimeter = new Square(9)
 // console.log(area.radius)
 // console.log(perimeter.side)
-  //wildacard opetatopr
+     //wildacard opetatopr
+//   import * as shapes from "./shapes"
+//   const area = new shapes.Circle(1);
+//   const perimeter = new shapes.Square(4);
+//   console.log(area);
+//   console.log(perimeter)
 
+           //integration btn js andts
 
-  import * as shapes from "./shapes"
-  const area = new shapes.Circle(1);
-  const perimeter = new shapes.Square(4);
-  console.log(area);
-  console.log(perimeter)
+ import { calculateTax } from "./tax";
+ let tax = calculateTax(100);
+ console.log(tax)          
