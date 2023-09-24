@@ -1,10 +1,7 @@
 "use strict";
-//Generics in ts
-class KeyValues {
-    constructor(key, value) {
-        this.key = key;
-    }
+function people(value) {
+    return value;
 }
-const keyValues = new KeyValues(4, "here we go");
-console.log(keyValues);
+const person = people("Viateur");
+console.log(person);
 //# sourceMappingURL=index.js.map

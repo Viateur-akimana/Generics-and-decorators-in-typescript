@@ -1,6 +1,15 @@
-//Generics in ts
-class KeyValues<T, V>{
-constructor( public key:T, public value: V){}
+// class KeyValuePair{
+//     constructor(public name:string, public id: number){}
+// }
+// const pair = new KeyValuePair("VIATEUR",9);
+// console.log(pair)
+
+
+//generic functions in TS
+
+
+function people(value: string){
+return value;
 }
-const keyValues = new KeyValues<number,string>(4,"here")
-console.log(keyValues.value)
+const person = people("viateur");
+console.log(person)
